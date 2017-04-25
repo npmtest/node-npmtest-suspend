@@ -1,6 +1,6 @@
 # npmtest-suspend
 
-#### test coverage for  [suspend (v0.7.0)](https://github.com/jmar777/suspend#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-suspend.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-suspend) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-suspend.svg)](https://travis-ci.org/npmtest/node-npmtest-suspend)
+#### basic test coverage for  [suspend (v0.7.0)](https://github.com/jmar777/suspend#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-suspend.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-suspend) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-suspend.svg)](https://travis-ci.org/npmtest/node-npmtest-suspend)
 
 #### Async control-flow for Node.js using ES6 generators.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-suspend/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-suspend/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-suspend/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-suspend/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-suspend/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-suspend/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-suspend/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-suspend/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-suspend/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-suspend/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-suspend/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-suspend/build/coverage.html/index.html)
 
@@ -89,7 +89,8 @@
         "test": "node ./node_modules/mocha/bin/mocha --harmony --reporter list",
         "test-es5": "node test-es5/run.js"
     },
-    "version": "0.7.0"
+    "version": "0.7.0",
+    "bin": {}
 }
 ```
 
